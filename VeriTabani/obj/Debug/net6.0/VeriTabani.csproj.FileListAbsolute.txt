@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\bin\Debug\net6.0\VeriTabani.deps.json
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\bin\Debug\net6.0\VeriTabani.runtimeconfig.json
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\bin\Debug\net6.0\VeriTabani.dll
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\bin\Debug\net6.0\VeriTabani.pdb
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\obj\Debug\net6.0\VeriTabani.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\obj\Debug\net6.0\VeriTabani.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\obj\Debug\net6.0\VeriTabani.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\obj\Debug\net6.0\VeriTabani.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\obj\Debug\net6.0\VeriTabani.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\obj\Debug\net6.0\VeriTabani.dll
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\obj\Debug\net6.0\refint\VeriTabani.dll
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\obj\Debug\net6.0\VeriTabani.pdb
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\obj\Debug\net6.0\VeriTabani.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Erü-Teknopark\SukruCaglarOdev\VeriTabani\obj\Debug\net6.0\ref\VeriTabani.dll

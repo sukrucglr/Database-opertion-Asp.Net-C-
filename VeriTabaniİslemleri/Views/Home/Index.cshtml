@@ -1,0 +1,32 @@
+﻿@using VeriTabani;
+@model List<Employee>;
+
+<table>
+    <thead style="border: 1px solid black">
+        <tr style="text-align:center">
+            <th colspan="5">List of staff</th>
+        </tr>
+        <tr style="border: 1px solid black">
+            <td>Employee First Name</td>
+            <td>Employee Last Name</td>
+            <td>Employee Title</td>
+            <td>Order</td>
+            <td>Country</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr style="border: 1px solid black">
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Title</td>
+                <td>@Html.ActionLink( "Order", "OrdersPage","Home", new { id = item.EmployeeId},   new { @class = "btn btn-info" }) </td>
+                <td>@Html.ActionLink("Countries", "CountryPage","Home", new { id = item.EmployeeId},   new { @class = "btn btn-info" }) </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+

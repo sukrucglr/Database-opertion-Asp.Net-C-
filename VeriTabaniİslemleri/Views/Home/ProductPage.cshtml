@@ -1,0 +1,29 @@
+﻿@using VeriTabani;
+@model List<Product>;
+
+<table>
+    <thead  >
+        <tr style="border: 1px solid black">
+            <th colspan="2">  Order details  </th>
+        </tr>
+        <tr >
+            <td style="border: 1px solid black">Product Name</td>
+            <td style="border: 1px solid black">Product Stock </td>
+        </tr>
+    </thead>
+    <tbody >
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+              <tr >
+            <td style="border: 1px solid black"> @item.ProductName </td>
+            <td style="border: 1px solid black"> @item.UnitsInStock  </td>
+                </tr>
+
+            }
+
+        }
+
+    </tbody>
+</table>

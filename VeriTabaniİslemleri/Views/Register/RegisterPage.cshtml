@@ -1,0 +1,38 @@
+﻿@using VeriTabani;
+@model Employee;
+
+<form asp-action="Ekle"  method="post" >
+    <div>
+        <label> First Name</label>
+        <input type="text" class="form-control" name="FirstName" asp-for="FirstName" />
+    </div>
+    <div>
+        <label> Last Name</label>
+        <input type="text" class="form-control" name="LastName" asp-for="LastName" />
+    </div>
+    <div >
+        <label>  Title </label>
+        <input type="text" class="form-control" name="Title" asp-for="Title" />
+    </div>
+    <div>
+        <label>  Title Of Courtesy </label>
+        <input type="text" class="form-control" name="TitleOfCourtesy" asp-for="TitleOfCourtesy" />
+    </div>
+    <div>
+        <label>  BirthDate </label>
+        <input type="date" class="form-control" name="BirthDate" asp-for="BirthDate" />
+    </div>
+    <div>
+        <label>  HireDate </label>
+        <input type="date" class="form-control" name="HireDate" asp-for="HireDate" />
+    </div>
+    <div>
+        <label>  Address </label>
+        <input type="text" class="form-control" name="Address" asp-for="Address" />
+    </div>
+ 
+    <div style="margin-top:15px" >
+        <button class="submit">Save</button>
+    </div>
+
+</form>

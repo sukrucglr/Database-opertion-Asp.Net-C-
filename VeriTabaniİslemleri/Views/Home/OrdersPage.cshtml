@@ -1,0 +1,38 @@
+﻿@using VeriTabani;
+@model List<Order> 
+
+
+
+<table style="border: 1px solid black">
+    <thead style="border: 1px solid black">
+        <tr style="text-align:center;">
+            <th colspan="5" >Order Detail</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black">Order Id</td>
+            <td style="border: 1px solid black">Order Date</td>
+            <td style="border: 1px solid black">Country</td>
+            <td style="border: 1px solid black">Ship Country</td>
+            <td style="border: 1px solid black">Product</td>
+    </thead>
+
+    <tbody style="border: 1px solid black">
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+
+                <tr>
+                    <td style="border: 1px solid black">@item.OrderId</td>
+                    <td style="border: 1px solid black">@item.OrderDate</td>
+                    <td style="border: 1px solid black">@item.ShipCountry</td>
+                    <td style="border: 1px solid black">@item.OrderDetails.Select(x=>x.Product.UnitPrice*x.Quantity).Sum()</td>
+
+                    <td style="border: 1px solid black">@Html.ActionLink("Product", "ProductPage","Home", new { orderId = item.OrderId},   new { @class = "btn btn-info" }) </td>
+                   
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>

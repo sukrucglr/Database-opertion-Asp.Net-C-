@@ -1,0 +1,33 @@
+﻿@using VeriTabani;
+@model List<Region>
+
+<table>
+    <thead  >
+        <tr style="border: 1px solid black">
+            <th colspan="2"> Country Of Responsibility   </th>
+        </tr>
+        <tr >
+            <td style="border: 1px solid black">Region Id</td>
+            <td style="border: 1px solid black">Description </td>
+        </tr>
+    </thead>
+    <tbody >
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                        <tr   >
+                    <td style="border: 1px solid black">
+                        @item.RegionId
+                            </td>
+                    <td style="border: 1px solid black">
+                        @item.RegionDescription
+                            </td>
+                        </tr>
+
+            }
+
+        }
+
+    </tbody>
+</table>
